@@ -17,6 +17,8 @@
 		062B74C52C7672F100D86586 /* TimerWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B74C42C7672F100D86586 /* TimerWidgetLiveActivity.swift */; };
 		062B74C92C7672F300D86586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062B74C82C7672F300D86586 /* Assets.xcassets */; };
 		062B74CD2C7672F300D86586 /* TimerWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 062B74BB2C7672F100D86586 /* TimerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		062B74D32C76820900D86586 /* TimerWidgetAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B74D22C76820900D86586 /* TimerWidgetAttributes.swift */; };
+		062B74D42C76823900D86586 /* TimerWidgetAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B74D22C76820900D86586 /* TimerWidgetAttributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,7 @@
 		062B74C42C7672F100D86586 /* TimerWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerWidgetLiveActivity.swift; sourceTree = "<group>"; };
 		062B74C82C7672F300D86586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		062B74CA2C7672F300D86586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062B74D22C76820900D86586 /* TimerWidgetAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerWidgetAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,7 @@
 		062B74C12C7672F100D86586 /* TimerWidget */ = {
 			isa = PBXGroup;
 			children = (
+				062B74D22C76820900D86586 /* TimerWidgetAttributes.swift */,
 				062B74C22C7672F100D86586 /* TimerWidgetBundle.swift */,
 				062B74C42C7672F100D86586 /* TimerWidgetLiveActivity.swift */,
 				062B74C82C7672F300D86586 /* Assets.xcassets */,
@@ -239,6 +243,7 @@
 			files = (
 				062B74AC2C766C9700D86586 /* ContentView.swift in Sources */,
 				062B74AA2C766C9700D86586 /* TimerWithDynamicIslandApp.swift in Sources */,
+				062B74D32C76820900D86586 /* TimerWidgetAttributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +253,7 @@
 			files = (
 				062B74C52C7672F100D86586 /* TimerWidgetLiveActivity.swift in Sources */,
 				062B74C32C7672F100D86586 /* TimerWidgetBundle.swift in Sources */,
+				062B74D42C76823900D86586 /* TimerWidgetAttributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
