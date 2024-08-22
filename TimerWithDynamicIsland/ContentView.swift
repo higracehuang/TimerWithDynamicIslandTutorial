@@ -43,8 +43,8 @@ struct ContentView: View {
   }
   
   private func startLiveActivity() {
-    let attributes = TimerWidgetAttributes(name: "Timer")
-    let initialState = TimerWidgetAttributes.ContentState(emoji: "⏳")
+    let attributes = TimerWidgetAttributes(startTime: Date())
+    let initialState = TimerWidgetAttributes.ContentState()
     let content = ActivityContent(state: initialState,
                                   staleDate: nil,
                                   relevanceScore: 0)
@@ -54,7 +54,7 @@ struct ContentView: View {
   
 
   private func stopLiveActivity() {
-    let contentState = TimerWidgetAttributes.ContentState(emoji: "⏳")
+    let contentState = TimerWidgetAttributes.ContentState()
     
     Task {
       if let activity = self.activity {
